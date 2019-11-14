@@ -1,0 +1,37 @@
+<!-- Animated google display ads developed for John Hancock Investment Management. Assets provided by design team. -->
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta name="ad.size" content="width=300, height=250"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- for mobile -->
+	<link type="text/css" rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="ad-interactivity.js"></script>   
+    <script>
+setInterval(function(){
+var container = document.getElementById('content');
+var tmp = container.innerHTML;
+container.innerHTML= tmp;
+}, 2000 // length of the whole show in milliseconds
+)
+</script>
+	</head>
+    
+	<body>
+			<div class="ad">
+				<h1 id="text1">Three decades of academic research and oversight behind every ETF</h1>
+                <br /><br />
+                <img id="hexagon-top" src="hex.png">
+                <img id="hexagon-bottom" src="hex.png">
+                <img id="screen1" src="background.png">
+                <img id="hexagon-both" src="hex-both.png">
+                <div id="text2">
+                <h1>John Hancock<br />Multifactor ETFs</h1>
+                <hr style="margin: 15px 0 15px 0">
+                <h3>Indexes designed by Dimensional Fund Advisors</h3>
+				</div>
+                <h2 id="text3">Discover our different approach at jhinvestments.com/etf &#9658;</h2>
+                <img id="logo" src="logo.png">
+                <h4 id="text4">Foreside Fund Services, LLC, distributor.</h4> 
+            </div>
+	</body>
+</html>
